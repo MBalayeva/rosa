@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage';
 import Navbar from './components/Navbar';
 
 function App() {
-  const [menuToggle, setMenuToggle] = useState(false);
+  const [menuToggle, setMenuToggle] = useState(true);
   const showMenu = () => {
     setMenuToggle(!menuToggle);
   };
