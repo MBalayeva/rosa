@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
 @import url('./styles/navbar');
-@import url('./styles/hero');
+@import url('./styles/Homepage');
 /*Global styles*/
 *,
 *::before,
@@ -68,4 +68,14 @@ header {
   right: 2.5rem;
   z-index: 2000;
   cursor: pointer;
+}
+
+.btn {
+  letter-spacing: 3px;
+  margin-right: -3px;
+  text-transform: uppercase;
+}
+
+.global-headline {
+  text-align: center;
 }
