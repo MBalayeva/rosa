@@ -79,3 +79,29 @@ header {
 .global-headline {
   text-align: center;
 }
+
+footer {
+  padding: 7.9rem 0;
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.move-to-top {
+  width: 7rem;
+  height: 7rem;
+  background-color: #121212;
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+
+.move-to-top i {
+  font-size: 2rem;
+  padding: 2rem;
+  color: #fff;
+}
+

@@ -97,9 +97,12 @@
 }
 
 .global-headline h1:nth-child(2) {
-    color: var(--main-font-color-dark);
     letter-spacing: 7px;
     margin-right: -7px;
+}
+
+.dark-headline h1:nth-child(2) {
+    color: var(--main-font-color-dark);
 }
 
 .discover-our-story {
@@ -151,16 +154,28 @@
     transform: scaleX(1.2);
 }
 
-.tasteful-recipes {
+.between {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 6rem;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.between {
-    min-height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.image-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+}
+
+.discover-our-menu .restaraunt-descr {
+    padding-top: 6rem;
+    margin-bottom: 0;
+}
+
+.culinary-delight {
+    padding-top: 6rem;
 }

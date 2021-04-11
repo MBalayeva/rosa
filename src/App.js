@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import {Switch, Route} from 'react-router-dom'
 import HomePage from './pages/HomePage';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   const [menuToggle, setMenuToggle] = useState(true);
@@ -21,6 +22,10 @@ function App() {
           <HomePage />
         </Route>
       </Switch>
+
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
