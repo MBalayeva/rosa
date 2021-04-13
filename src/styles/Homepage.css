@@ -17,6 +17,9 @@
     font-weight: 100;
     line-height: .4;
     letter-spacing: 2px;
+    opacity: 0;
+    animation: fadeUp .5s forwards;
+    animation-delay: .3s;
 }
 
 .first-letter {
@@ -32,6 +35,9 @@
     letter-spacing: .5rem;
     margin-right: -0.5rem;
     font-weight: 900;
+    opacity: 0;
+    animation: scale .5s forwards;
+    animation-delay: .3s;
 }
 
 .separator {
@@ -46,6 +52,9 @@
     height: .20rem;
     background-color: #fff;
     position: relative;
+    opacity: 0;
+    animation: width .2s forwards;
+    animation-delay: .9s;
 }
 
 .line-left::before, .line-right::before {
@@ -54,6 +63,9 @@
     border: .5rem solid transparent;
     top: 50%;
     transform: translateY(-50%);
+    opacity: 0;
+    animation: width .2s forwards;
+    animation-delay: 1.1s;
 }
 
 .line-left::before {
@@ -66,10 +78,19 @@
     right: 0;
 }
 
+.single-animation {
+    opacity: 0;
+    animation: fadeDown .3s forwards;
+    animation-delay: 1.5s;
+}
+
 .asterisk {
     font-size: 1.5rem;
     margin: 0 1rem;
     color: var( --secondary-font-color);
+    opacity: 0;
+    animation: spin .5s forwards;
+    animation-delay: .7s;
 }
 
 .headline-descr h3 {
@@ -106,7 +127,7 @@
 }
 
 .discover-our-story {
-    padding-top: 8rem;
+    padding: 8rem 0;
 }
 
 .global-headline .asterisk {

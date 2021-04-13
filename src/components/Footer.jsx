@@ -10,7 +10,7 @@ function Footer() {
         </div>
         <div className="footer-content">
           <div className="footer-content-about animate-up">
-            <h2>About Rosa</h2>
+            <h2 className='footer-headline'>About Rosa</h2>
             <div className="asterisk">
               <i className="fas fa-asterisk"></i>
             </div>
@@ -22,7 +22,7 @@ function Footer() {
             </p>
           </div>
           <div className="footer-content-divider animate-bottom">
-            <h3>Follow Along</h3>
+            <h3 className='footer-headline'>Follow Along</h3>
             <ul className="social-media">
               <li>
                 <a href="#">
@@ -42,8 +42,8 @@ function Footer() {
             </ul>
           </div>
           <div className="newsletter">
-            <h3>Subscribe to our newsletter</h3>
-            <form action="">
+            <h3 className='footer-headline'>Subscribe to our newsletter</h3>
+            <form action="" className="newsletter-form">
               <input type="text" placeholder="Your email" />
               <button type="submit">
                 <i className="fas fa-envelope"></i>
